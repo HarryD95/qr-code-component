@@ -1,0 +1,58 @@
+/* Cascading Stylesheet */
+
+/* Variables */
+:root {
+  --color-light-gray: hsl(212, 45%, 89%);
+  --color-grayish-blue: hsl(220, 15%, 55%);
+  --color-dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+  font-size: 15px;
+  background-color: var(--color-light-gray);
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  width: 200px;
+  background-color: white;
+  border-radius: 5%;
+  padding: 10px 10px 10px 10px;
+}
+
+.qr-code {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.qr-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 3%;
+}
+
+.qr-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 175px;
+  text-align: center;
+}
+
+.qr-text h1 {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 1px;
+  font-weight: 700;
+}
+
+.qr-text p {
+  font-weight: 400;
+  font-size: 10px;
+  color: var(--color-grayish-blue);
+}
